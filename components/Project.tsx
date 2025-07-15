@@ -88,7 +88,7 @@ const Project = () => {
         ))}
       </div>
       <div className="w-full flex items-center justify-center">
-        <Link href="https://github.com/sanket560?tab=repositories">
+        <Link href="https://github.com/dhirajbi?tab=repositories">
           <MagicButton title="View More" icon={<FaRegEye />} position="left" />
         </Link>
       </div>
