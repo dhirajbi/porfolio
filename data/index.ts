@@ -1,4 +1,4 @@
-import vu from "../Images/vu.png";
+import vu from "../Images/vu.jpeg";
 import jsp from "../Images/jsp.jpeg";
 import hhs from "../Images/hhs.jpg";
 import echobazar from "../Images/echobazar.png";
@@ -34,19 +34,12 @@ export const navItems: NavItem[] = [
 
 export const education = [
   {
-    course: "Bachelor Of Technology In Computer Engineering",
-    collegeName: "Vishwakarma University, Pune",
-    completion: "2022 - 2025 | Completed",
+    course: "Bachelor Of Engineering in AIML",
+    collegeName: "Alard college of engineering , Pune",
+    completion: "2022 - 2026 | pursuing",
     img: vu,
-    marks: "CGPA : 8.7 / 10",
+    marks: "CGPA : 7.8 / 10",
   },
-  {
-    course: "Diploma In Computer Engineering",
-    collegeName: "Jaywantrao Sawant Polytechnic, Pune",
-    completion: "2019 - 2022 | Completed",
-    img: jsp,
-    marks: "CGPA : 8.2 / 10",
-  }
 ];
 
 export const projects = [
@@ -60,7 +53,7 @@ export const projects = [
     },
     {
       id: 2,
-      title: "VishwaEvents",
+      title: "wanderlust",
       des: "Event Management System enabling students to create, manage, and register for events within the college community. Implemented an event creation and registration, with integrated ticket generation upon registration to provide attendees with personalized access to events.",
       img: vishwaevents,
       iconLists: [mongodb ,express, react, node, tailwind],

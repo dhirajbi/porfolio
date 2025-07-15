@@ -31,7 +31,7 @@ const Footer = () => {
           Fork This Template On GitHub Start Building Your Own Portfolio
           Website.
         </p>
-        <Link href="https://github.com/sanket560/portfolio-nextjs">
+        <Link href="https://github.com/dhirajbi/porfolio">
           <MagicButton
             title="Fork This Repo"
             icon={<GoRepoForked />}
@@ -42,17 +42,17 @@ const Footer = () => {
 
       <div className="relative flex mt-16 md:flex-row flex-col gap-3 justify-between items-center z-10">
         <p className="md:text-base text-sm md:font-normal font-light">
-          Copyright © 2024 Sanket Mane
+          Copyright © 2024 Dhiraj Biradar
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-            <Link href="https://github.com/sanket560">
+            <Link href="https://github.com/dhirajbi">
               <Image src={whitegithub} alt="icons" width={30} height={30} />
             </Link>
           </div>
           <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
-            <Link href="https://www.linkedin.com/in/sanketmane23/">
+            <Link href="https://www.linkedin.com/in/dhiraj-biradar18/">
               <Image src={linkedin} alt="icons" width={30} height={30} />
             </Link>
           </div>

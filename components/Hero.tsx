@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Spotlight } from "./ui/Spotlight";
-import profilepic from "../Images/pofilepic.png";
+import profilepic from "../Images/skills/profilepic.png";
 import Image from "next/image";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
 import MagicButton from "./ui/MagicButton";
@@ -27,11 +27,11 @@ const Hero = () => {
             Hi There,
           </p>
           <p className="md:tracking-wider font-bold mb-4 text-3xl md:text-5xl lg:text-5xl">
-            I&apos;m Sanket Mane
+            I&apos;m Dhiraj Birdar
           </p>
           <TextGenerateEffect
             className="uppercase tracking-widest text-lg md:text-xl text-blue-100 "
-            words="Software Engineer - Intern @ Syngenta | Ex - Frontend Developer - Intern @ Fyoocher | React.js | Next.js | JavaScript | TypeScript | Playwright (testing) | MERN Stack | Ex-President @ RSD Club, VU | VU'25 | JSCOE'22"
+            words="  React.js | Node.js | JavaScript |  MERN Stack  | Full stack | BE(AIML)'26"
           />
         </div>
         <div className="max-w-[89vw] flex items-center md:max-w-3xl lg:max-w-[70vw]">
